@@ -3,6 +3,17 @@
 #
 # sudo ./run.sh
 #
+
+# Check if chkrootkit is installed
+if command -v chkrootkit &> /dev/null; then
+    echo ""
+else
+    echo "chkrootkit is not installed. Installing..."
+    sudo apt update && sudo apt install -y chkrootkit
+    echo "chkrootkit has been installed."
+fi
+
+
 echo "Welcome to J~Net© RPI5-Problem-Detector"
 
 # Define available log files to check
