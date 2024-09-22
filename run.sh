@@ -1,5 +1,6 @@
 #!/bin/bash
 # J~Net© RPI5-Problem-Detector
+# https://github.com/jamieduk/J-Net-RPI5-Problem-Detector
 #
 # sudo ./run.sh
 #
